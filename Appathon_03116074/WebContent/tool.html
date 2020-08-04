@@ -1,0 +1,17 @@
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" onclick="swap('tool.html')">Tool</a>
+  <a href='form.jsp'>Form</a>
+  <a onclick="swap('aboutUs.html')">About Us</a>
+</div> 
+<div>
+<h1>The Tool</h1>
+</div>
+<div id=button>
+	<br>
+	<button onclick="asyncLoadContent('http://feed.opendata.imet.gr:23577/itravel/paths.json','http://feed.opendata.imet.gr:23577/itravel/devices.json','http://api.openweathermap.org/data/2.5/weather?')">Get Data</button>
+	<br><br>
+</div>
+<div id=content class=box>
+	<br>
+</div>
